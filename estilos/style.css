@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.logoMio{
+    transition: all 1s;
+}
+.logoMio:hover{
+        transform: translateX(150px);
+}
+.colorNav{
+    background-color: #005f65;
+}
+.navPagina:hover{
+    background-color: #9b9b9b;
+}
+.colorH4Slider{
+    background-color: #cc2c20;
+}
+.usarFlex{
+    display: flex;
+    justify-content: center;
+}
+.usarFlex2{
+    display: flex;
+    justify-content: space-around;
+}
+.contenidoIconos h2{
+    color: #005f65;
+}
+.contenidoIconos p{
+    color: #9b9b9b;
+}
+.prodDesc{
+    background-color: #005f65;
+    border-radius: 50px;
+}
+.prodDesc:hover{
+    background-color: #9b9b9b;
+}
+.tarjetaProd{
+    transition: all 0.2s;
+}
+.tarjetaProd:hover{
+    transform: scale(1) translateY(-10px);
+}
+footer{
+    background-image: url(../img/fondoFooter.jpg);
+    height: 300px;
+}
+.padreFooter h4{
+    color: #005f65;
+}
+.madeBy{
+    color: #005f65;
+}
+.padreFooter section a img{
+    transition: all 1s ease;
+}
+.padreFooter section a img:hover{
+    transform: scale(1) translateX(5px) translateY(5px);
+    background-color: #6c757d;
+    border-radius: 50px;
+}
